@@ -42,7 +42,7 @@
 <script>
 const axios = require('axios');
 
-let base_uri = '';
+let base_uri = process.env.baseUri || 'http://localhost:3000/api';
 
 export default {
   data: function() {

@@ -39,6 +39,8 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    // https://github.com/nuxt-community/dotenv-module
+    '@nuxtjs/dotenv',
   ],
   bootstrapVue: {
     icons: true
