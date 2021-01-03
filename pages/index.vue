@@ -1,11 +1,5 @@
 <template>
   <b-container>
-    <b-navbar toggleable="lg" type="dark" variant="dark">
-      <b-navbar-brand href="/">covid19-api-viewer</b-navbar-brand>
-      <b-navbar-nav class="ml-auto">
-        <b-nav-item href="/login">ログイン</b-nav-item>
-      </b-navbar-nav>
-    </b-navbar>
     <b-jumbotron header="covid19-api-viewer">
       <p>Nuxt.jsの練習アプリ</p>
       <nuxt-link to="apis" class="btn btn-primary btn-lg">
