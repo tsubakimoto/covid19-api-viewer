@@ -1,6 +1,9 @@
 <template>
   <b-container>
     <b-row>
+      <h1>covid19-api-viewer</h1>
+    </b-row>
+    <b-row>
       <b-col>
         <b-card-group deck>
           <b-card header="APIs">
