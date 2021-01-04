@@ -15,7 +15,10 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [
+      { src: 'https://alcdn.msauth.net/lib/1.4.4/js/msal.min.js' },
+    ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -41,6 +44,8 @@ export default {
     '@nuxtjs/axios',
     // https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
+    // MSAL
+    '~/modules/msal',
   ],
   bootstrapVue: {
     icons: false
